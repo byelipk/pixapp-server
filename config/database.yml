@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  database: pix_dev
+  pool: 5
+  timeout: 5000
+  username: 'rails'
+  password: 'rails4dev'
+  host: localhost
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  database: pix_test
