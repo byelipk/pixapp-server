@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '>= 5.0.0.beta3', '< 5.1'
+gem 'rails', git: "git://github.com/rails/rails.git", branch: "master"
 gem 'pg', '~> 0.18.4'
 gem 'puma'
 
